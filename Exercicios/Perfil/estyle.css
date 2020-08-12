@@ -1,0 +1,58 @@
+*{margin-right: 0em;margin-top: 0em;margin-left: 0em; margin-bottom: 0em;}
+
+.img_fundo{
+    max-width: 100%;
+    background-repeat: no-repeat;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.conteudo{
+    display: table;
+    margin-left: 5%;
+    margin-top: -5%;
+}
+
+.img_perfil{
+    max-width: 15%;
+    position: relative;
+    float: left;
+    display: table-cell;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color:black;
+    position: relative;
+    float: left;
+    display: table-cell;
+    margin-left: 0.5em;
+    margin-top: 12%;
+}
+
+a:link{   
+    font-family: fantasy;
+    font-size: 1.4em;
+    color: blue;
+    position: relative;
+    float: right;
+    margin-top: 12%;
+}
+
+a:hover{
+    color: green;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    color:black;
+    position: relative;
+}
+
+.texto{
+    margin-top: 3%;
+}
