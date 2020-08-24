@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Formulario</title>
+</head>
+<body>  
+    
+    <form name="exercicio"></form>
+    
+    <h1>Cadastre seu currículo<br></h1>
+    
+    <h2>1. Dados Pessoais</h2>
+    
+        <!-- DADOS PESSOAIS -->
+        <div class="container">
+
+            <div class="container_titulos">
+                <div>Nome<br></div>
+                <div>Data de nascimento<br></div>
+                <div>Estado Civil<br></div>
+                <div>Sexo<br></div>
+            </div>
+                
+            <div class="container_campos">
+                <div><input class="campos" type="text" name="nome" placeholder="Digite seu nome" required /><br></div>
+                <div><input class="campos" type="date" name="data" placeholder="Coloque sua data de nascimento" /><br></div>
+                <div></datalist> 
+                    <select class="campos" name="estado" >
+                        <option selected value="solteiro">Solteiro</option>
+                        <option value="casado">Casado</option>
+                        <option value="divorciado">Divorciado</option>
+                        <option value="viuvo">Viúvo</option>
+                        </select></div>
+                <div><input style="width: 40px" type="radio" name="sexo" value="male" />Masculino
+                     <input style="width: 40px" type="radio" name="sexo" value="fem" />Feminino</div>
+            </div>
+        
+        </div>    
+        <!-- DADOS PESSOAIS -->
+
+        <h2>2. Objetivo</h2>
+        <!-- OBJETIVO -->
+        <div class="container">
+
+            <div class="container_titulo_objetivo">
+                <div>Objetivo</div>
+            </div>
+                
+            <div class="container_area">
+                <div><textarea class="campo_area" name="objetivo" cols="50" rows="10" placeholder="Digite o objetivo" required></textarea> </div>
+            </div>
+        
+        </div>    
+        <!-- OBJETIVO -->
+
+        <h2>3. Contato</h2>
+        <!-- CONTATO -->
+        <div class="container_contato_geral_contato">
+
+            <div class="container_titulo_contato">
+                <div>Endereço<br></div>
+                <div>Cidade/Estado<br></div>
+                <div>CEP<br></div>
+                <div>Telefone<br></div>
+                <div>E-mail<br></div>
+                <div><br>Rede Social<br><br></div>
+            </div>
+
+          <div class="container_contato_geral_campos">
+
+            <div class="container_campos_contato">
+                <div><input class="campos_contato" type="text" name="endereco" placeholder="Digite seu endereço" required /><br></div>
+            </div>    
+
+            <div class="container_campos_contato_c_e">
+                <div><input class="campos_contato_c_e" type="text" name="cidade" placeholder="Digite sua cidade" required />  </div>
+                <div class="campos_barra">&nbsp; /&nbsp; &nbsp; </div>
+                <div><input class="campos_contato_c_estado" name="estado" maxlength="2" placeholder="Digite seu estado" pattern="[A-Z\s]+$" required /><br></div>
+            </div>
+
+            <div class="container_campos_contato">
+                <div><input class="campos_contato" name="CEP" placeholder="Digite seu CEP no formato 99999-999" pattern="[0-9]{5}[\-][0-9]{3}" required /><br></div>
+                <div><input class="campos_contato" name="telefone" placeholder="Digite seu telefone no formato (99) 9999-9999" pattern="[\(][0-9]{2}[\)][0-9]{4}[\-][0-9]{4}" required /><br></div>
+                <div><input class="campos_contato" type="email" name="e-mail" placeholder="Digite seu e-mail" required /><br></div>
+            </div>  
+            
+            
+
+            <div class="container_campos_contato_social">
+                <div class="contato_link"> <img class="img_link" src="face.png"> http://facebook.com/ <input class="campos_contato_social" type="text" name="facebook" placeholder="Perfil facebook" /><br></div>
+                <div class="contato_link"> <img class="img_link" src="linkedin.png"> http://linkedin.com/ <input class="campos_contato_social" type="text" name="linkedin" placeholder="Perfil linkedin" /><br></div>
+                <div> <img class="img_link" src="skype.png"> <input class="campos_contato_social" type="text" name="skype" placeholder="Perfil skype" /><br></div>
+            </div>
+      
+          </div>
+        </div>  
+
+    <h2>4. Conhecimentos</h2>
+    <!-- CONHECIMENTOS -->    
+    <div class="container_conhecimento_geral">
+        
+        <div class="container_titulo_contato">
+            <div><br><br><br>Linguagens de Programação<br><br><br><br></div>
+            <div>Idiomas</div>
+        </div>
+
+     <div class="container_campos_conhecimentos_geral">
+        <div class="container_campos_conhecimento">
+            <div><input class="campos_conhecimentos" type="checkbox" name="conhecimento" value="c-c++" />C/C++<br></div>
+            <div><input class="campos_conhecimentos" type="checkbox" name="conhecimento" value="java" />Java<br></div>
+            <div><input class="campos_conhecimentos" type="checkbox" name="conhecimento" value="vb" />Visual Basic<br></div>
+            <div><input class="campos_conhecimentos" type="checkbox" name="conhecimento" value="net" />.Net<br></div>
+            <div><input class="campos_conhecimentos" type="checkbox" name="conhecimento" value="php" />PHP<br></div>
+            <div><input class="campos_conhecimentos" type="checkbox" name="conhecimento" value="python" />Python<br></div>
+            <div><input class="campos_conhecimentos" type="checkbox" name="conhecimento" value="html" />HTML<br></div>
+        </div>
+
+        
+        <div class="container_campos_idiomas">
+            <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">&nbsp; Ingles &nbsp;</datalist> 
+                <select class="campos_niveis" name="ingles" >
+                    <option selected value="nivel">Nivel</option>
+                    <option value="ini">Iniciante</option>
+                    <option value="inter">Intermediário</option>
+                    <option value="avan">Avançado</option>
+                </select></div>
+    
+                <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">&nbsp; | &nbsp; Espanhol &nbsp;</datalist> 
+                    <select class="campos_niveis" name="espanhol" >
+                        <option selected value="nivel">Nivel</option>
+                        <option value="ini">Iniciante</option>
+                        <option value="inter">Intermediário</option>
+                        <option value="avan">Avançado</option>
+                    </select></div>
+        
+        </div>
+     </div>
+    </div>    
+    <!-- CONHECIMENTOS --> 
+
+    <!-- BOTÕES -->
+        <input class="button_style" style="margin-left: 10%" type="reset"value="Limpar"/>
+        <input class="button_style" style="margin-left: 20px" type="submit"value="Enviar"/>
+    <!-- BOTÕES -->
+        
+    </form>
+
+</body>
+</html>

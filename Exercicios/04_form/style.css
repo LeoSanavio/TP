@@ -1,0 +1,375 @@
+*{margin-right: 0em;margin-top: 0em;margin-left: 0em; margin-bottom: 0em;}
+
+
+
+.container{
+    align-items: baseline;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+    min-width: 250px;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+/*---- DADOS PESSOAIS ----*/
+
+.container_titulos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex: 1 1;
+    position: relative;
+    max-width: 250px;
+    min-width: 250px;
+}
+
+.container_titulos > div{
+    max-width: 220px;
+    min-width: 20%;
+    position: relative;
+    flex: 1 1;
+    background-color: rgba(236, 234, 234, 0.877);
+    font-size: 1.5em;
+    color: rgb(7, 73, 196);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.container_campos{
+    font-family: serif;
+    flex: 1 1;
+    position: relative;
+    top: -5px;
+    max-width: 800px;
+    min-width: 40%;
+}
+
+.container_campos > div{
+    position: relative;
+    background-color: rgba(0, 128, 128, 0.473);
+    font-size: 1.5em;
+    flex: 1 1;
+    margin-bottom: 10px;
+    min-width: 20%;
+    max-width: 750px;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.campos{
+    width: 90%;
+    height: 26px;
+    margin-bottom: 1px;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    text-align: left;
+    margin-top: 1em;
+    margin-left: 10%;
+    margin-bottom: 1.2em;
+    color: rgb(37, 37, 248);
+}
+
+/*---- OBJETIVO ----*/
+
+.container_titulo_objetivo{
+    max-width: 190px;
+    min-width: 10%;
+    position: relative;
+    flex: 1 1;
+    background-color: rgba(236, 234, 234, 0.877);
+    font-size: 1.5em;
+    color: rgb(7, 73, 196);
+    margin: 10px;
+    border-radius: 5px;
+    align-self: center;
+    padding: 15px;
+    top: -10px;
+}
+
+.container_area > div {
+    flex: 1 1;
+    max-width: 100%;
+    min-width: 20%;
+    padding: 1px;
+}
+
+.container_area{
+    flex: 1 1;
+    max-width: 35%;
+    min-width: 20%;
+    position: relative;
+    background-color: rgba(0, 128, 128, 0.473);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.campo_area{
+    max-width: 95%;
+    min-width: 20%;
+    height: 50px;
+    flex: 1 1;
+    position: relative;
+    border-radius: 5px;
+}
+
+/*---- CONTATO ----*/
+.container_contato_geral_contato{
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    align-content: flex-start;
+    align-items: baseline;
+    margin-left: 10%;
+    max-width: 1100px;
+    min-width: 250px;
+}
+
+.container_contato_geral_campos{
+    flex: 1 1;
+    position: relative;
+    min-width: 20%;
+    max-width: 100%;
+}
+
+.container_titulo_contato{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex: 1 1;
+    position: relative;
+    max-width: 22%;
+    min-width: 175px;
+}
+
+.container_titulo_contato > div{
+    max-width: 100%;
+    min-width: 20%;
+    position: relative;
+    flex: 1 1;
+    background-color: rgba(236, 234, 234, 0.877);
+    font-size: 1.5em;
+    color: rgb(7, 73, 196);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.container_campos_contato{
+    font-family: serif;
+    flex: 1 1;
+    position: relative;
+    top: -5px;
+    max-width: 100%;
+    min-width: 40%;
+}
+
+.container_campos_contato> div{
+    position: relative;
+    background-color: rgba(0, 128, 128, 0.473);
+    font-size: 1.5em;
+    flex: 1 1;
+    margin-bottom: 6px;
+    min-width: 20%;
+    max-width: 100%; 
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.campos_contato{
+    width: 90%;
+    height: 26px;
+    margin-bottom: 1px;
+}
+
+/*---- CIDADE/ESTADO ----*/
+
+.container_campos_contato_c_e{
+    display: flex;
+   margin-top: -7px;
+    font-family: serif;
+    flex: 1 1;
+    position: relative;
+    max-width: 100%;
+    min-width: 20%;
+    margin-bottom: 2px;
+}
+
+.container_campos_contato_c_e > div{
+    position: relative;
+    background-color: rgba(0, 128, 128, 0.473);
+    font-size: 1.5em;
+    flex: 1 1;
+    margin-bottom: 10px;
+    min-width: 20%;
+    max-width: 100%;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.campos_contato_c_e{
+    width: 96%;
+    height: 26px;
+    margin-bottom: 1px;
+}
+
+.campos_contato_c_estado{
+    width: 79%;
+    height: 26px;
+    margin-bottom: 1px;
+}
+
+.campos_barra{
+    display: contents;
+}
+
+/* CAMPOS SOCIAL */
+
+.container_titulo_contato_social{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex: 1 1;
+    position: relative;
+    max-width: 250px;
+    min-width: 250px;
+    background-color: lightslategray;
+}
+
+.container_titulo_contato_social > div{
+    max-width: 100%;
+    min-width: 20%;
+    position: relative;
+    flex: 1 1;
+    background-color: rgba(236, 234, 234, 0.877);
+    font-size: 1.5em;
+    color: rgb(7, 73, 196);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.container_campos_contato_social{
+    position: relative;
+    margin-top: 6px;
+    flex: 1 1;
+    background-color: rgba(0, 128, 128, 0.473);
+    border-radius: 5px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.container_campos_contato_social > div{
+    position: relative;
+    margin: 1px;
+    flex: 1 1;
+    margin-left: 1%;
+}
+
+.campos_contato_social{
+    width: 24%;
+    height: 24px;
+    margin-bottom: 1px;
+}
+
+.img_link{
+    width: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.contato_link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*---- CONHECIMENTO ----*/
+
+.container_campos_conhecimentos_geral{
+    width: 1100px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.container_conhecimento_geral{
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    align-content: flex-start;
+    align-items: baseline;
+    margin-left: 10%;
+    max-width: 1100px;
+    min-width: 250px;
+}
+
+.container_campos_conhecimento{
+    font-family: serif;
+    flex: 1 1;
+    position: relative;
+    max-width: 100%;
+    min-width: 40%;
+    background-color: rgba(0, 128, 128, 0.473);
+    border-radius: 5px;
+    padding: 1px;
+    bottom: 2px;
+}
+
+.container_campos_conhecimento > div{
+    position: relative;
+    font-size: 1.5em;
+    flex: 1 1;
+    margin-bottom: 7px;
+    min-width: 20%;
+    max-width: 100%; 
+    padding: 1px;
+}
+
+.campos_conhecimentos{
+    margin-bottom: 3px;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+
+.container_campos_idiomas{
+    display: flex;
+    max-width: 100%;
+    min-width: 20%;
+    flex: 1 1;
+    position: relative;
+    margin-top: 9px;
+    border-radius: 5px;
+    background-color: rgba(0, 128, 128, 0.473);
+}
+
+.campos_niveis{
+    min-width: 20%;
+    height: 26px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+/*---- CONHECIMENTO ----*/
+
+.button_style{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    min-width: 6%;
+    height: 30px;
+    color: blue;
+    background-color: rgb(170, 255, 184);
+}
+
+/*---- VALIDAÇÃO OBRIGATORIO ----*/
+input:required:valid, textarea:required:valid {
+    background-image: url("check.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+input:required:invalid, input:focus:invalid, textarea:required:invalid, textarea:focus:invalid {
+        background-image: url("wrong.gif");
+        background-repeat: no-repeat;
+        background-position: right;
+}
