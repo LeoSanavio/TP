@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Incluir css do bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <!-- Incluir jquery e js do bootstrap -->
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <link href="flix.png" rel="shortcut icon" type="image/x-icon" />
+    <title>Movies Flix</title>
+</head>
+<body>
+    
+    
+        <!-- NAV BAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a href="index.html"><img src="logo.png" width="400px"></a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar"><br>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class=" nav-item active" style="margin-left: 7%;">
+                    <a class=" nav-link font-weight-bold text-uppercase" style="color: white;"  href="comedia.html">comédia</a>
+                  </li>
+                  <li class=" nav-item active" style="margin-left: 7%;">
+                    <a class="nav-link font-weight-bold text-uppercase" style="color: white;" href="acao.html">ação</a>
+                  </li>
+                  <li class="navig nav-item active" style="margin-left: 7%;">
+                    <a class=" nav-link font-weight-bold text-uppercase" style="color: white;" href="terror.html">terror</a>
+                  </li>
+                  <li class=" nav-item active" style="margin-left: 7%;">
+                    <a class="nav-link font-weight-bold text-uppercase" style="color: white;" href="romance.html">romance</a>
+                  </li>
+                </ul>
+        </nav>
+        <!-- NAV BAR -->
+
+    <!-- CORPO PAG PRINCIPAL -->
+        
+        <div class="col" style="background-color: rgb(0, 0, 0);" >
+            <br><br><h1 class="textoprincipal col text-center font-weight-bold ">OS MELHORES TRAILERS VOCÊ ENCONTRA AQUI!</h1><br>
+        </div>
+       
+        <div class="container-fluid bg-dark"><br><br><br>
+
+          <!-- CAROUSEL -->
+          <div style="width: 60%; margin-left: 20%;" id="carouselmovies" class="shadow carousel slide " data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselmovies" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselmovies" data-slide-to="1"></li>
+              <li data-target="#carouselmovies" data-slide-to="2"></li>
+              <li data-target="#carouselmovies" data-slide-to="3"></li>
+              <li data-target="#carouselmovies" data-slide-to="4"></li>
+              <li data-target="#carouselmovies" data-slide-to="5"></li>
+            </ol>
+            <div class="slides carousel-inner">
+              <div class=" slides carousel-item active">
+                <a href="acao.html"><img class="d-block w-100" src="venom.jpg" alt="Primeiro Slide"></a>
+              </div>
+              <div class=" carousel-item">
+                <a href="comedia.html"><img class=" d-block w-100" src="jumanji.png" alt="Segundo Slide"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="acao.html"><img class="d-block w-100" src="avenger.jpg" alt="Terceiro Slide"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="comedia.html"><img class="d-block w-100" src="baywatch.jpg" alt="Quarto Slide"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="comedia.html"><img class="d-block w-100" src="mib.jpg" alt="Quinto Slide"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="acao.html"><img class="d-block w-100" src="ceu.jpg" alt="Sexto Slide"></a>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselmovies" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselmovies" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+          <!-- CAROUSEL -->
+          <br>
+
+          
+            <h2 class="titulo text-center font-weight-bold " style="color: black;"> MAIS POPULARES </h2><br><br>
+          
+            <h1 class="titulo text-center font-weight-bold shadow rounded" style="color: black; margin: 20px; width: 40%; margin-left: 30%; background-color: rgb(252, 98, 98);"> Assista trailers dos melhores filmes</h1><br><br>
+            <img src="film.png" width="150px" style="margin-bottom: 5px; position: relative; margin-left: 45%; margin-bottom: 3%;"></img>
+
+            <div class="shadow-lg rounded">
+            <h1 class="titulo text-center font-weight-bold" style="color: rgb(241, 75, 75); margin: 20px; width: 50%; margin-left: 25%;"> Escolha sua categoria preferida</h1>
+          <!-- CARDS -->  
+          <div class="row" style="margin-left: 8%;">   
+            <div class="card " style="width: 18rem; background-color: black;  margin-left: 5%;  margin-top: 5%;margin-bottom: 5%;">
+              <img class="card-img-top" src="comedia.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title" style="color: white;">Comédia</h5>
+                <p class="card-text" style="color: white;">Melhores filmes de comédia para você! Venha conferir!</p>
+                <a href="comedia.html" class="btn btn-dark">Confira</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem; background-color: black; margin-left: 5%;  margin-top: 5%;margin-bottom: 5%;">
+              <img class="card-img-top" src="acao.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title" style="color: white;">Ação</h5>
+                <p class="card-text" style="color: white;">Melhores filmes de ação para você! Venha conferir!</p>
+                <a href="acao.html" class="btn btn-dark" >Confira</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem; background-color: black; margin-left: 5%;  margin-top: 5%;margin-bottom: 5%;">
+              <img class="card-img-top" src="terror.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title" style="color: white;">Terror</h5>
+                <p class="card-text" style="color: white;">Melhores filmes de terror para você! Venha conferir!</p>
+                <a href="terror.html" class="btn btn-dark">Confira</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem; background-color: black;  margin-left: 5%;  margin-top: 5%;margin-bottom: 5%;">
+              <img class="card-img-top" src="romance.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title" style="color: white;">Romance</h5>
+                <p class="card-text" style="color: white;">Melhores filmes de romance para você! Venha conferir!</p>
+                <a href="romance.html" class="btn btn-dark" >Confira</a>
+              </div>
+            </div>
+          </div>
+            <!-- CARDS --> 
+
+
+          </div>
+            <br><br><br><br>
+
+            <img src="popcorn.png" width="70px" style="position: relative; margin-left: 48%; margin-bottom: 4%;"></img>
+
+      </div>
+    <!-- CORPO PAG PRINCIPAL -->
+
+    <!-- RODAPÉ -->
+    <footer class="container-fluid text-center" style="background-color: black;">
+      <img src="logo.png" width="400px"></img><br>
+        <a style="color: white;" href="https://github.com/LeoSanavio" > Perfil GitHub </a>
+        <img src="github.png" width="40px" style="margin-bottom: 5px;"></img><br>
+        <p style="color: white;">CopyRight © Leonardo Sanavio</p><br>
+    </footer>
+    <!-- RODAPÉ -->
+
+</body>
+</html>
