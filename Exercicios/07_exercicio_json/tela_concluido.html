@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css\quiz_style.css">
+    <script type="text/javascript" src="json\perguntas.json" charset="utf-8"></script>
+    <script type="text/javascript" src="js\quiz_func.js"></script>
+    <title>QUIZ</title>
+</head>
+<body onload="final();">
+
+    <div class="div_titulo">
+        <h1 class="titulo_quiz">QUIZ CONCLUIDO!</h1>
+    </div>
+        
+    <div class="div_princ">
+        <div class="div_pontos">
+            <p class="pontuacao">SUA PONTUAÇÃO TOTAL:</p>
+            <p id="pontos_finais" class="pontos">0</p>
+            <p class="pontuacao">DE 10 PERGUNTAS, VOCÊ ACERTOU:</p>
+            <h4 id="perguntas" class="pontos">0 </h4>
+        </div>
+    </div>
+
+    <a href="quiz.html"><button class="jogar_nov">JOGAR NOVAMENTE</button></a>
+</body>
+</html>

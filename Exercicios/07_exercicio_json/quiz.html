@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css\quiz_style.css">
+    <script type="text/javascript" src="json\perguntas.json" charset="utf-8"></script>
+    <script type="text/javascript" src="js\quiz_func.js"></script>
+    <title>QUIZ</title>
+</head>
+<body onload="verifica()">
+    
+    <div class="div_titulo">
+        <h1 class="titulo_quiz">QUIZ DE CONHECIMENTOS GERAIS</h1>
+    </div>
+        
+    <div class="div_princ">
+        <div class="div_pontos">
+            <p class="pontuacao">PONTUAÇÃO:</p>
+            <p id="pontos" class="pontos">0</p>
+        </div>
+
+        <div class="div_imagens">
+            <div id="pergunta">
+                
+            </div>
+        </div>
+
+        <div class="div_alternativas">
+            <button class="opcao" id="alt1" onclick="verifica(1)">INICIANDO</button>
+            <button class="opcao" id="alt2" onclick="verifica(2)">O</button>
+            <button class="opcao" id="alt3" onclick="verifica(3)">SEU</button>
+            <button class="opcao" id="alt4" onclick="verifica(4)">QUIZ</button>
+        </div>
+    </div>
+
+</body>
+</html>

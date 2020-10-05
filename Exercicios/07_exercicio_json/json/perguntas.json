@@ -1,0 +1,113 @@
+var opcoes = [
+    {
+        "id": "0",
+        "imagem": "./img/ossos.jpg",
+        "resposta": "3", // alternativa 3
+        "alternativas": [
+            "172",
+            "180",
+            "206",
+            "225"
+        ]
+    },
+    {
+        "id": "1",
+        "imagem": "./img/pais_rico.jpg",
+        "resposta": "1", // alternativa 1
+        "alternativas": [
+            "Qatar",
+            "Noruega",
+            "Luxemburgo",
+            "Macau"
+        ]
+    },
+    {
+        "id": "2",
+        "imagem": "./img/cor_pele.jpg",
+        "resposta": "4", // alternativa 4
+        "alternativas": [
+            "Trimetilamina",
+            "Acetanilida",
+            "Amônia",
+            "Melanina"
+        ]
+    },
+    {
+        "id": "3",
+        "imagem": "./img/agua_corpo.jpg",
+        "resposta": "1", // alternativa 1
+        "alternativas": [
+            "60%",
+            "70%",
+            "85%",
+            "92%"
+        ]
+    },
+    {
+        "id": "4",
+        "imagem": "./img/malaria.jpg",
+        "resposta": "2", // alternativa 2
+        "alternativas": [
+            "Um Vírus",
+            "Um Protozoário",
+            "Uma Bactéria",
+            "Um Fungo"
+        ]
+    },
+    {
+        "id": "5",
+        "imagem": "./img/maior_osso.jpg",
+        "resposta": "4", // alternativa 4
+        "alternativas": [
+            "Úmero",
+            "Tíbia",
+            "Fíbula",
+            "Fêmur"
+        ]
+    },
+    {
+        "id": "6",
+        "imagem": "./img/limpeza.jpg",
+        "resposta": "3", // alternativa 3
+        "alternativas": [
+            "Mitocôndria",
+            "Linfócitos",
+            "Lisossomos",
+            "Ribossomos"
+        ]
+    },
+    {
+        "id": "7",
+        "imagem": "./img/primitivos.jpg",
+        "resposta": "1", // alternativa 1
+        "alternativas": [
+            "Procariontes",
+            "Eucariontes",
+            "Complexas",
+            "Eram Pluricelulares"
+        ]
+    },
+    {
+        "id": "8",
+        "imagem": "./img/sangue.jpg",
+        "resposta": "4", // alternativa 4
+        "alternativas": [
+            "No rim",
+            "No figado",
+            "No coração",
+            "Na medula óssea"
+        ]
+    },
+    {
+        "id": "9",
+        "imagem": "./img/olhosverdes.jpg",
+        "resposta": "2", // alternativa 2
+        "alternativas": [
+            "1%",
+            "2%",
+            "7%",
+            "14%"
+        ]
+    }
+    
+];
